@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <EditText
+        android:layout_width="394dp"
+        android:layout_height="79dp"
+        android:id="@+id/et_url"
+        android:inputType="textUri"
+        android:text="http://img86.nipic.com/file/20170906/7222844_173915949039_1.jpg"
+
+        />
+
+    <Button
+        android:id="@+id/btg_go"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="打开网络图片" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.07"
+        android:id="@+id/img_urlpic"
+        />
+
+</LinearLayout>
